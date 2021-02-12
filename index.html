@@ -251,7 +251,7 @@ document.getElementsByTagName('head')[0].appendChild(css); })(); </script>
 			
 			<h3 style="text-align: center;" data-aos="zoom-in" data-aos-delay="300">Get In Touch</h3>
 
-			<form id="contact-form" name="contact" method="POST" data-netlify="true"  netlify-honeypot="bot-field" data-aos="flip-up" data-aos-delay="600">
+			<form id="contact-form" name="contact" method="POST" data-netlify="true" data-netlify-recaptcha="true" netlify-honeypot="bot-field" data-aos="flip-up" data-aos-delay="600">
 				
 				<input type="hidden" name="form-name" value="contact">
 
@@ -270,7 +270,7 @@ document.getElementsByTagName('head')[0].appendChild(css); })(); </script>
 
 				<label for="message">Message</label>
 				<textarea id="message" class="input-field" name="message"></textarea>
-				
+				<div data-netlify-recaptcha="true"></div>
 				<input id="submit-btn" type="submit" value="Send">
 			</form>
 		</div>
