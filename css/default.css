@@ -1003,7 +1003,7 @@ footer {
     height: 277px;
     top: 13px;
     left: 12px;
-    background-image: url(../infographic-circle-green.svgz);
+    background-image: url(../infographic-circle-green.svg);
     z-index: 1;
 }
 #about-infographic div {
@@ -1019,14 +1019,14 @@ footer {
     height: 300px;
     top: 0;
     left: 183px;
-    background-image: url(../infographic-circle-yellow.svgz);
+    background-image: url(../infographic-circle-yellow.svg);
 }
 #about-infographic #infographic-circle-orange {
     width: 233px;
     height: 233px;
     top: 217px;
     left: 217px;
-    background-image: url(../infographic-circle-orange.svgz);
+    background-image: url(../infographic-circle-orange.svg);
     z-index: 1;
 }
 #about-infographic #infographic-circle-red {
@@ -1034,14 +1034,14 @@ footer {
     height: 300px;
     top: 183px;
     left: 0;
-    background-image: url(../infographic-circle-red.svgz);
+    background-image: url(../infographic-circle-red.svg);
 }
 #about-infographic #infographic-logo {
     width: 208px;
     height: 208px;
     top: 129px;
     left: 141px;
-    background: url(../infographic-logo.svgz) no-repeat 0 0;
+    background: url(../infographic-logo.svg) no-repeat 0 0;
     z-index: 5;
 }
 #about-infographic div span {
