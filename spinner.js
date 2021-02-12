@@ -1,6 +1,8 @@
 
-let spinnerWrapper = document.querySelector('#spinner');
-window.addEventListener('load', function(){
+var loader = document.getElementById('spinner');
 
-   spinnerWrapper.parentElement.removeChild(spinner)
-});
+
+function myFunction(){
+	loader.style.display = 'none';
+	document.body.style.display ="block";
+}
