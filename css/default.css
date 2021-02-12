@@ -592,7 +592,9 @@ p.hidden{
 	font-size: 14px;
 }
 
-
+form div{
+	margin-top: 5px;
+}
 .input-field{
 	width: 100%;
 	padding-top: 10px;
