@@ -208,7 +208,7 @@ nav ul li :hover{
 	align-content: center;
 	min-height: 10em;
 	animation: dropdown 3s 1;
-
+	animation: delay 0.5s;
 }
 
 @keyframes dropdown{
@@ -223,7 +223,7 @@ nav ul li :hover{
 
 .greeting-wrapper h1{
 	animation: headanim 2.5s 1;
-	animation-delay: 0.05s;
+	animation-delay: 0.55s;
 	animation-timing-function: ease;
 }
 
@@ -243,6 +243,7 @@ nav ul li :hover{
 		font-family: Russo One, sans-serif;
 		font-size: 75px;
 		animation: headanim2 2.5s 1;
+	        animation-delay: 0.5s;
 		animation-timing-function: ease;
 	}
 @keyframes headanim2{
@@ -343,22 +344,22 @@ box-shadow: -1px 1px 49px 21px rgba(0,0,0,0.75);
 
 .animate__tada{
 	animation-duration: 1.5s;
-	animation-delay: 2.8s;
+	animation-delay: 3.3s;
 }
 
 .animate__bounceInRight{
 	animation-iteration-count: 1;
-	animation-delay: 3.7s;
+	animation-delay: 4.2s;
 }
 
 .animate__fadeIn{
 	animation-duration: 1s;
-	animation-delay: 4.5s;
+	animation-delay: 5s;
 }
 
 p.animate__fadeIn{
 	animation-duration: 1s;
-	animation-delay: 5s;
+	animation-delay: 5.5s;
 }
 
 .right-column{
@@ -800,7 +801,7 @@ footer {
 			'right-column'
 		;
 		animation: pageanim 1.5s 1;
-	animation-delay: 0.5s;
+	animation-delay: 1s;
 	}
 
 	@keyframes pageanim{
@@ -1077,7 +1078,7 @@ footer {
 		margin-top: 0;
 		margin-bottom: 0;
 		animation: headanim 1.5s 1;
-		animation-delay: 0.5s;
+		animation-delay: 1s;
 	}
 
 	.greeting-wrapper{
@@ -1093,7 +1094,7 @@ footer {
 		font-family: Russo One, sans-serif;
 		font-size: 35px;
 		animation: headanim2 1.5s 1;
-		animation-delay: 0.5s;
+		animation-delay: 1s;
 	}
 
 	@keyframes headanim2{
@@ -1160,13 +1161,13 @@ nav ul{
 	transition: background-color 0.7s;
 }
 .animate__tada{
-	animation-delay: 0.5s;
+	animation-delay: 1s;
 	animation-timing-function: ease-in-out;
 	animation-duration: 1.5s;
 }
 .animate__bounceInRight{
 	animation-iteration-count: 1;
-	animation-delay: 2s;
+	animation-delay: 2.5s;
 }
 .animate__fadeIn{
 	animation: none;
