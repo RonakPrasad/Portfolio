@@ -1,0 +1,34 @@
+:root{
+	--mainColor:#15202B;
+	--secondaryColor:#192734;
+
+	--borderColor:#164D56;
+
+	--mainText:#fff;
+	--secondaryText:#eeeeee;
+
+	--themeDotBorder:#FFF;
+
+	--previewBg:rgb(25, 39, 52, 0.8);
+	--previewShadow:#111921;
+
+
+	--buttonColor:#17a2b8;
+	--backdrop: url('../images/backdrop-blue.jpg');
+
+	--headerColor: white;
+	--infographicColor: white;
+
+	--proButtonColorHover: var(--mainText);
+	--proButtonColor: #ffc933;
+
+	--postprevColor: #ff4a59;
+	--postborderColor: #ffc94a;
+	--postintroColor: white;
+
+	--menuButtonColor: #17a2b8;
+	--myBtnColor: #15202B;
+
+	--submitBtnColor:#fa913c;
+	--submitBtnText:black;
+}

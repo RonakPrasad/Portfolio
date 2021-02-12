@@ -1,0 +1,201 @@
+.overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.8);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+    overflow: hidden;
+}
+
+
+.overlay:target{
+    visibility: visible;
+    opacity: 1;
+}
+.close {
+ position: relative;
+    right: 12px;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 100ms;
+    font-size: 22px;
+    font-weight: bolder;
+    text-decoration: none;
+    color: var(--mainText);
+}
+.close:hover{
+  opacity: 0.5;
+  font-size: 30px;
+}
+
+/* Modal Content */
+.modal-content {
+    margin: 90px auto;
+    padding: 0px;
+    background-color: var(--secondaryColor);
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    width: 45%;
+    height: 80%;
+    position: relative;
+    overflow: auto;
+    -ms-overflow-style: none;
+    transition: all 200ms ease-in-out;
+    border-left: var(--borderColor) 1.5px solid;
+    border-right: var(--borderColor) 1.5px solid;
+    border-top: var(--borderColor) 1.5px solid;
+    border-bottom: var(--borderColor) 1.5px solid;
+}
+
+
+
+.head{
+display:flex; 
+justify-content: space-between;
+background-color: var(--secondaryColor); 
+align-items: center; 
+padding:0px 20px 0px 20px;
+}
+
+
+
+.project-content{
+  padding: 0px 20px 0px 20px;
+  font-size: 18px;
+}
+
+.project-content .prolang{
+  font-weight: bold;
+  font-size: 18px;
+}
+.modal-holder {
+    position: relative;
+    transition: opacity 500ms;
+    z-index: 9999;
+}
+
+
+.probuttons{
+  display: flex;
+  justify-content: center;
+}
+
+.probutton{
+  border-radius:40px;
+  border: 3px solid var(--proButtonBorder);
+  background-color: var(--proButtonColor);
+  color: var(--mainColor);
+  padding: 20px;
+  margin: 20px;
+  width: 230px;
+  font-size: 20px;
+  font-family: 'Russo One', sans-serif;
+  text-align: center;
+  transition: width 1s, background 1s;
+  margin-bottom: 30px;
+}
+
+
+.probutton:hover{
+  width: 280px;
+  background-color: var(--proButtonColorHover);
+}
+
+.probutton i{
+  font-size: 25px;
+}
+
+
+.modal-content img{
+  width: 100%;
+  height: 340px;
+  object-fit: cover;
+}
+
+
+#visualnovel img{
+  height: 360px;
+  object-position: 0px -85px;
+}
+
+.project-content h5{
+  margin-bottom: 10px;
+}
+
+.project-content ul{
+  list-style-type: circle; 
+  margin-left: 20px;
+}
+
+.project-content .prolang{
+  margin-top:0px;
+}
+
+
+
+@media screen and (max-width: 700px){
+.modal-content{
+    width: 85%;
+    margin: 70px auto 10px auto;
+
+  }
+.modal-content img{
+  height:180px;
+}
+.head h4{
+  font-size: 15px;
+}
+.head{
+  padding-right: 5px;
+}
+.probuttons{
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.probutton{
+  font-size: 17px;
+  margin: 5px 0px 5px 0px;
+  width: 150px;
+  padding:10px;
+  margin-bottom: 15px;
+}
+
+.probutton:hover{
+  width: 200px;
+}
+
+.probutton i{
+  font-size: 18px;
+}
+.project-content{
+  font-size: 14px;
+}
+
+.project-content ul{ 
+  margin-left: 17px;
+}
+
+.project-content .prolang{
+  font-size: 14px;
+}
+.close{
+  font-size: 17px;
+  padding-right: 0px;
+  margin-right:0px;
+}
+#visualnovel img{
+  height: 180px;
+  object-position: 0px -15px;
+}
+#euphorica img{
+  height: 165px;
+}
+}

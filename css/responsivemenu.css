@@ -1,0 +1,70 @@
+nav .menu-btn i{
+  display: none;
+} 
+ #click{
+    display:none;
+  }
+
+@media (max-width: 768px){
+  nav .menu-btn i{
+    cursor: pointer;
+    display: block;
+    color: var(--menuButtonColor);
+    margin-top: 25px;
+    margin-right: 50px;
+    font-size: 25px;
+    transition: all 0.9s ease;
+  }
+  #click:checked ~ ul{
+    left: 0%;
+  }
+  #click:checked ~ .menu-btn i:before{
+    content: "\f00d";
+    transition: all 0.3s ease;
+  }
+   #click:checked ~ .menu-btn i:hover:before{
+    animation: mymove 1s 1;
+   }
+  nav h1{
+    margin-right: 5px;
+  }
+  header{
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  nav ul{
+    position: fixed;
+    top: 75px;
+    left: -120%;
+    display: block;
+    background-color: var(--mainColor);
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    transition: all 0.8s ease;
+  }
+  nav ul li{
+    margin-top: 60px;
+    justify-content: center;
+  }
+  nav ul li a{
+    font-size: 30px;
+  }
+
+}
+
+
+@keyframes mymove{
+  0%{opacity: 1;}
+  50%{opacity: 0.5; font-size: 20px;}
+  100%{opacity: 1; font-size: 25px;}
+}
+
+
+/*animation-name: menu-anim;
+animation-duration: 0.7s;
+}
+@keyframes menu-anim{
+  to{opacity:0.5; font-size: 30px;}
+  
+}*/
