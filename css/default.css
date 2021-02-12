@@ -208,7 +208,7 @@ nav ul li :hover{
 	align-content: center;
 	min-height: 10em;
 	animation: dropdown 3s 1;
-	animation: delay 0.5s;
+	animation-delay 0.5s;
 }
 
 @keyframes dropdown{
