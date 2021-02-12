@@ -91,9 +91,6 @@ h6 { font-size: 16px;}
 	
 }
 
-.s1.backdrop{
-	;
-}
 
 .main-container{
 	width: 1200px;
@@ -234,7 +231,7 @@ nav ul li :hover{
 }
 
 .s1{
-	background: var(--backdrop);
+	background-image: var(--backdrop);
 	
 }
 
