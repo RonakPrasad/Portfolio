@@ -2,7 +2,7 @@
 var loader = document.getElementById('spinner');
 
 
-function myFunction(){
-	loader.style.display = 'none';
-	document.body.style.display ="block";
-}
+window.onload = function() 
+  { 
+  	loader.style.display = 'none';
+  	document.body.style.display = "block"; }
